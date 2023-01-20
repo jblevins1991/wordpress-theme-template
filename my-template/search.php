@@ -2,9 +2,9 @@
 
 <html>
     <head>
-        <?php wp_head(); ?>
-
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="all" />
+
+        <?php wp_head(); ?>
     </head>
 
     <body>

@@ -27,6 +27,10 @@
         }
     endif;
 
+    function initializeStyles() {
+        wp_enqueue_style();
+    }
+
     // register our function to run when the `after_setup_theme` hook is called
     add_action('after_setup_theme', 'my_theme_name_setup');
 
