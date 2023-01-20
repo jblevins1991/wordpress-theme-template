@@ -1,1 +1,7 @@
+# wordpress configuration file
 wp-config.php
+
+# themes
+twentytwentyone
+twentytwentytwo
+twentytwentythree

@@ -2,8 +2,6 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="all" />
-
         <?php wp_head(); ?>
     </head>
 
@@ -12,6 +10,7 @@
 
         <main>
             <!-- html content here. -->
+            <h1>Home</h1>
         </main>
 
         <?php get_footer(); ?>
