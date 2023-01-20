@@ -12,7 +12,7 @@ services:
       WORDPRESS_DB_PASSWORD: root
       WORDPRESS_DB_NAME: wordpress
     volumes:
-      - ../my-template:/var/www/html
+      - ../my-template:/var/www/html/wp-content/themes
     depends_on:
       - mysql
   mysql:
